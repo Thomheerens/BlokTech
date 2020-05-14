@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap") format("Inter");
+}
+
+body {
+    background-image: url(images/backgroundimage.jpg) ;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F8FD;
+    height: 100%;
+    width: 100vw;
+}
+
+#header_homepage {
+    position: absolute;
+    width: 457px;
+    height: 128px;
+    left: 150px;
+    top: 260px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 64px;
+    color: white;
+}
+
+#lead_homepage {
+    position: absolute;
+    width: 329px;
+    height: 102px;
+    left: 150px;
+    top: 420px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+}
+
+#gradient_first {
+    position: absolute;
+    width: 997px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(45.83% 103.12% at 10.1% 15.31%, #002D5B 29.89%, rgba(0, 45, 91, 0) 100%);
+    opacity: 0.4;
+}
+
+#gradient_second {
+    position: absolute;
+    width: 997px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(102% 102.13% at 0% 100%, #CD236E 13.1%, rgba(205, 35, 110, 0) 100%);
+    opacity: 0.5;
+}
+
+#account_block {
+    position: absolute;
+    width: 457px;
+    height: 529px;
+    margin-left: 735px;
+    margin-top: 156px;;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+#create_account {
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    margin-top: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#lead_account {
+    position: absolute;
+    width: 385px;
+    height: 64px;
+    margin-top: 80px;
+    margin-left: 36px;
+    margin-right: 36px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
+
+#name_input {
+    margin-left: 42px;
+    margin-top: 188px;
+    position: absolute;
+    width: 373px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #DBDEE7;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#email_input {
+    margin-left: 42px;
+    margin-top: 258px;
+    position: absolute;
+    width: 373px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #DBDEE7;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#password_input {
+    margin-left: 42px;
+    margin-top: 328px;
+    position: absolute;
+    width: 373px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #DBDEE7;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding-left: 24px;
+}
+
+#button_signup {
+    margin-top: 420px;
+    width: 373px;
+    height: 60px;
+    margin-left: 42px;
+    background: #002D5B;
+    border-radius: 6px;
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-size: 100vw;
+      background-repeat: no-repeat;
+      height: 100vh;
+      
+    }
+
+    #gradient_first {
+        visibility: hidden;
+    }
+    
+    #gradient_second {
+        visibility: hidden;
+    }
+
+    #account_block {
+        position: flex;
+        width: 457px;
+        height: 529px;
+        left: 0;
+        top: 0;
+        margin-top: 300px;
+        background: #FFFFFF;
+        border-radius: 6px;
+    }
+}
